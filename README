@@ -1,0 +1,17 @@
+Dependencies
+============
+
+This layer depends on:
+
+  URI: git://git.openembedded.org/bitbake
+  branch: master
+
+  https://github.com/openembedded/meta-openembedded
+  layers: meta-oe meta-python meta-networking
+  branch: master
+
+  https://github.com/linux-sunxi/meta-sunxi
+  branch: master
+
+  URI: git://github.com/imyller/meta-nodejs.git
+  branch: master
