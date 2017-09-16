@@ -25,6 +25,7 @@ do_install_append() {
 	cd ${D}${servicedir}/node
 	oe_runnpm install node-red-contrib-thingspeak42
 	oe_runnpm install node-red-contrib-telegrambot
+	oe_runnpm install node-red-contrib-os
 
 	# configure access rights: node-red is running as node:node
 	chown -R node ${D}${servicedir}/node
