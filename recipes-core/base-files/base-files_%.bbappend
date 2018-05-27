@@ -1,0 +1,5 @@
+#
+#
+#
+
+hostname = "${MACHINE}-iot-hub"
