@@ -97,7 +97,7 @@ BBLAYERS ?= " \
    MACHINE = "orange-pi-zero"
    ```
 
-Specify kernel module for WiFi chip:
+   Specify kernel module for WiFi chip:
 
    ```asciidoc
    IMAGE_INSTALL_append = " kernel-module-xradio "
@@ -111,7 +111,7 @@ Specify kernel module for WiFi chip:
    MACHINE = "orange-pi-zero-plus2"
    ```
 
-Specify firmware for WiFi chip:
+   Specify firmware for WiFi chip:
 
    ```asciidoc
    IMAGE_INSTALL_append = " armbian-firmware-brcm "
@@ -125,7 +125,7 @@ Specify firmware for WiFi chip:
    MACHINE = "orange-pi-pc-plus"
    ```
 
-Specify kernel module for WiFi chip:
+   Specify kernel module for WiFi chip:
 
    ```asciidoc
    IMAGE_INSTALL_append = " kernel-module-rtl8189fs "
