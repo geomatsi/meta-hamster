@@ -26,6 +26,8 @@ do_install_append() {
 	oe_runnpm install node-red-contrib-thingspeak42
 	oe_runnpm install node-red-contrib-telegrambot
 	oe_runnpm install node-red-contrib-os
+	oe_runnpm install node-red-contrib-opi-gpio
+	oe_runnpm install node-red-contrib-usbcamera
 
 	# configure access rights: node-red is running as node:node
 	chown -R node ${D}${servicedir}/node
